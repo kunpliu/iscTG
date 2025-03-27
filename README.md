@@ -1,2 +1,2 @@
-# scTGI
-single cell transcriptome and GWAS integration
+# iscTG
+integrate single cell Transcriptome and Genome-wide association studies
