@@ -2,7 +2,7 @@
 
 iscTG is a comprehensive workflow designed to integrate single-cell transcriptome data with genome-wide association studies (GWAS) to uncover the genetic basis of complex traits at the cellular level. This repository provides a set of tools and scripts to facilitate this integration, along with a workflow to guide users through the process.
 
-![Flowchart](fig/flow.tif)
+![Flowchart](workflow2-gjz.tif)
 
 ## Workflow
 
@@ -17,23 +17,17 @@ The iscTG workflow is designed to streamline the integration of single-cell RNA-
 
 To get started with iscTG, follow these steps:
 
-1. **Clone the repository**:
+1. **Install dependencies**:
    ```bash
-   git clone https://github.com/yourusername/iscTG.git
-   cd iscTG
+   Rscript -e "install.packages(c('Seurat', 'ggplot2'))"
    ```
 
-2. **Install dependencies**:
-   ```bash
-   Rscript -e "install.packages(c('Seurat', 'MAGMA', 'ggplot2'))"
-   ```
-
-3. **Run the test script**:
+2. **Run the test script**:
    ```bash
    Rscript test.R
    ```
 
-4. **Visualize the results**:
+3. **Visualize the results**:
    ```bash
    Rscript out_fig.R
    ```
