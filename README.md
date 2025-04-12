@@ -2,7 +2,7 @@
 
 iscTG is a comprehensive workflow designed to integrate single-cell transcriptome data with genome-wide association studies (GWAS) to uncover the genetic basis of complex traits at the cellular level. This repository provides a set of tools and scripts to facilitate this integration, along with a workflow to guide users through the process.
 
-![Flowchart](workflow2-gjz.tif)
+![Flowchart](workflow2-gjz.png)
 
 ## Workflow
 
