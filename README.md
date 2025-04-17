@@ -15,7 +15,7 @@ The iscTG workflow is designed to streamline the integration of single-cell RNA-
 ## main function
 
 net.R
-### 描述
+### To get PCC net
 
 hbf2k.R
 ### 描述
