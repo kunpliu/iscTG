@@ -25,21 +25,6 @@ To attach cell type to results from raw data.
 
 ### celltype_heat.R
 To visualize results.
-## Quick Start
+## Tips
 
-To get started with iscTG, follow these steps:
-
-1. **Install dependencies**:
-   ```bash
-   Rscript -e "install.packages(c('Seurat', 'ggplot2'))"
-   ```
-
-2. **Run the test script**:
-   ```bash
-   Rscript test.R
-   ```
-
-3. **Visualize the results**:
-   ```bash
-   Rscript out_fig.R
-   ```
+Because gene expression datasets come in many different formats, users are expected to preprocess their own data and merge the gene expression values with MAGMA results into a single matrix. The first 2,000 columns should contain normalized gene expression values, and the remaining 2,000 columns should contain the corresponding gene-level p-values (from the GWAS of interest, as produced by MAGMA). An example file is provided at R_scripts/code/2000gene2000p_mono_example.rds.This repository also includes an example based on a monocyte counts GWAS, using data from 500 cells.
