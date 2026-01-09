@@ -17,10 +17,11 @@ The iscTG workflow is designed to streamline the integration of single-cell RNA-
 net61.R
 ### To get PCC net
 
-61regionhbf2k.R
-### 描述
-computeP.R
-### 描述
+61hbf2k.R
+### To compute post-probability and p-gamma by PCC net, gene expression matrix and weight from MAGMA
+
+freq61_type_transfer.R
+### To attach cell type to results from raw data.
 
 ## Quick Start
 
@@ -40,39 +41,3 @@ To get started with iscTG, follow these steps:
    ```bash
    Rscript out_fig.R
    ```
-
-## Small Tools
-
-### extra_features.R
-
-This script is used to extract features required for iscTG from gene expression matrices and MAGMA output files. It assumes that the single-cell data is in Seurat format.
-
-**Usage**:
-```R
-source("extra_features.R")
-extract_features(seurat_object, magma_output_file)
-```
-
-### test.R
-
-This script is used to test the iscTG workflow using the provided `mono500.rds` dataset. It demonstrates the basic functionality of the workflow.
-
-**Usage**:
-```R
-source("test.R")
-run_test("mono500.rds")
-```
-
-### mono500.rds
-
-This is a test dataset containing 500 monocytes and 500 other cells (e.g., red cells). It is designed to provide a quick test of the workflow due to its small size.
-
-### out_fig.R
-
-This script is used to visualize the results of the iscTG workflow. It can generate heatmaps or other relevant plots from the Seurat-formatted data.
-
-**Usage**:
-```R
-source("out_fig.R")
-generate_heatmap(seurat_object)
-```
