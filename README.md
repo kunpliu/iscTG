@@ -14,14 +14,14 @@ The iscTG workflow is designed to streamline the integration of single-cell RNA-
 4. **Visualization**: Use `out_fig.R` to visualize the results in the form of heatmaps or other relevant plots.
 ## main steps
 
-net61.R
-### To get PCC net
+### net61.R
+To get PCC net
 
-61hbf2k.R
-### To compute post-probability and p-gamma by PCC net, gene expression matrix and weight from MAGMA
+### 61hbf2k.R
+To compute post-probability and p-gamma by PCC net, gene expression matrix and weight from MAGMA
 
-freq61_type_transfer.R
-### To attach cell type to results from raw data.
+### freq61_type_transfer.R
+To attach cell type to results from raw data.
 
 ## Quick Start
 
