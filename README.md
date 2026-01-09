@@ -4,14 +4,6 @@ iscTG is a comprehensive workflow designed to integrate single-cell transcriptom
 
 ![Flowchart](workflow.png)
 
-## Workflow
-
-The iscTG workflow is designed to streamline the integration of single-cell RNA-seq data with GWAS summary statistics. The key steps include:
-
-1. **Data Preparation**: Ensure single-cell RNA-seq data is in Seurat format and GWAS summary statistics are properly formatted.
-2. **Feature Extraction**: Use `extra_features.R` to extract relevant features from gene expression matrices and MAGMA output files.
-3. **Testing**: Use `test.R` to run a quick test of the workflow using the provided `mono500.rds` dataset.
-4. **Visualization**: Use `out_fig.R` to visualize the results in the form of heatmaps or other relevant plots.
 ## Main steps
 
 ### net61.R
