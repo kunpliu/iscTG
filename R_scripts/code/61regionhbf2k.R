@@ -230,3 +230,5 @@ add_p_norm <- function(df) {
 }
 freq <- add_p_norm(freq)
 saveRDS(freq,paste0('freq61_hbf2000_',disease,'_',tissue,'.rds'))
+
+#Rscript 61regionhbf2k.R mono example

@@ -11,3 +11,4 @@ column_sums <- colSums(cor_matrix)
 
 normalized_matrix <- cor_matrix / column_sums
 saveRDS(normalized_matrix,paste0("Net_",tissue,".rds"))
+#Rscript net61.R example
