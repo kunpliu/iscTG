@@ -12,7 +12,7 @@ The iscTG workflow is designed to streamline the integration of single-cell RNA-
 2. **Feature Extraction**: Use `extra_features.R` to extract relevant features from gene expression matrices and MAGMA output files.
 3. **Testing**: Use `test.R` to run a quick test of the workflow using the provided `mono500.rds` dataset.
 4. **Visualization**: Use `out_fig.R` to visualize the results in the form of heatmaps or other relevant plots.
-## main function
+## main steps
 
 net61.R
 ### To get PCC net
