@@ -23,6 +23,8 @@ To compute post-probability and p-gamma by PCC net, gene expression matrix and w
 ### freq61_type_transfer.R
 To attach cell type to results from raw data.
 
+### celltype_heat.R
+To visualize results.
 ## Quick Start
 
 To get started with iscTG, follow these steps:
