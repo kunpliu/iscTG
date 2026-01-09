@@ -14,10 +14,10 @@ The iscTG workflow is designed to streamline the integration of single-cell RNA-
 4. **Visualization**: Use `out_fig.R` to visualize the results in the form of heatmaps or other relevant plots.
 ## main function
 
-net.R
+net61.R
 ### To get PCC net
 
-hbf2k.R
+61regionhbf2k.R
 ### 描述
 computeP.R
 ### 描述
